@@ -1,0 +1,570 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+a {
+    text-decoration: none;
+  }
+  
+  li {
+    list-style: none;
+  }
+  
+.container{
+    max-width: 1312px;
+    margin: 0 auto;
+}
+
+/* header */
+.wrap{
+    display: flex;
+    margin: 22.5px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;;
+}
+.header__nav{
+    display: flex;
+    gap: 32px;
+    font-size: 18px;
+    font-weight: 500;
+
+}
+.header__logo{
+    font-size: 32px;
+    font-family: "Rubik Bubbles", system-ui;
+    
+}
+.header__btns{
+    display: flex;
+    gap: 16px;
+}
+.btn__wt{
+    color:black;
+    font-size: 16px;
+    font-weight: 400;
+}
+.btn_sm{
+    padding: 8px 20px;
+    border-radius: 7px;
+    background-color: #fff;
+    border: 1px solid #000;
+}
+.btn__bc{
+    color:#fff;
+    font-size: 16px;
+    font-weight: 400;
+}
+.btn_fw{
+    padding: 8px 20px;
+    border-radius: 7px;
+    background-color: #000;
+    border: 1px solid #000;
+}
+/* main */
+.main{
+    background-image: url(../img/bg1.png);
+    height: 894px;
+    width: 100%;
+}
+.main__box{
+    padding: 346px 0 162px 64px;
+    display: flex;
+    flex-direction: column;
+}
+.main__box-t{
+    color:#fff;
+    font-size: 56px;
+    font-family: "Rubik Bubbles", system-ui;
+    max-width: 916px;
+    margin-bottom: 24px;   
+}
+.main__box-text-t{
+    color:#fff;
+    font-size: 18px;
+    font-weight: 500;
+    max-width: 916px;
+    margin-bottom: 32px;
+}
+.btn__2{
+    padding: 12px 24px;
+    background-color: #888282;
+    border-radius: 7px;
+    border: none;
+}
+.btn--2-t{
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+}
+.main__btns{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+.btn__3{
+    padding: 12px 24px;
+    background-color: transparent;
+    border-radius: 7px;
+    border: 1px solid #fff;
+}
+.btn__3-t{
+    color:#fff;
+    font-size: 16px;
+    font-weight: 400;
+}
+/* main2 */
+.main2{
+    background-color: #e3e0e0;
+    height: 667px;
+}
+.main2__box{
+    display: flex;
+    padding-top: 112px;
+    justify-content: space-between;
+    gap: 80px;
+
+}
+.main2__box-1-text{
+    color:#000;
+    font-size: 48px;
+    font-weight: 400;
+    font-family: "Rubik Bubbles", system-ui;
+    max-width: 616px;
+}
+.main2__box-2-t{
+    max-width: 616px;
+    color:#000;
+    font-size: 28px;
+    font-weight: 400;
+    margin-bottom: 32px;
+}
+.main2-box{
+    display: flex;
+    margin-bottom: 64px;
+}
+.main2-box-1-title_t{
+    color: #000;
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 16px;
+}
+.main2-box-1-text_t{
+    color: #000;
+    max-width: 296px;
+    font-weight: 400;
+    font-size: 16px;
+}
+.main2__box-2__btn1{
+    padding: 12px 24px;
+    background-color: transparent;
+    border: 1px solid #000;
+    border-radius: 7px;
+}
+.main2__box-2__btn1-text{
+    font-size: 16px;
+    font-weight: 400;
+}
+.main2__box-2__btn2{
+    background-color: transparent;
+    border: none;
+}
+.main2__box-2__btn{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+.main2__box-2__btn2-text{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/* main3 */
+.main3{
+    background-image: url("../img/bg2.jpg");
+    height: 864px;
+}
+.main3__box{
+    padding-top: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+}
+.main3__box-1{
+    margin-bottom: 80px;
+
+
+}
+.main3__box-1__text{
+    font-size: 40px;
+    font-weight: 400;
+    font-family: "Rubik Bubbles", system-ui;
+}
+.main3__box-2__1__img_v{
+    width: 350px;
+    height: 240px;
+}
+.main3__box-2__1__title{
+    font-size: 17px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+.main3__box-2__1__text{
+    font-size: 16px;
+    font-weight: 400;
+    max-width: 405px;
+    text-align: center;
+}
+.main3__box-2__1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main3__box-2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 48px;
+}
+
+
+/* main4 */
+.main4{
+    background-color: #F8F8F8;
+    height: 1414px;
+}
+.main4__box{
+    padding-top: 112px;
+}
+.forwomen{
+    font-weight: 600;
+    font-size: 16px;
+    margin-bottom: 16px;
+    color: #000;
+}
+.main4__box_1__title{
+    font-weight: 400;
+    color: #000;
+    font-size: 48px;
+    font-family: "Rubik Bubbles", system-ui;
+    margin-bottom: 16px;
+}
+.main4__box_1__text{
+    color: #000;
+    font-size: 28px;
+    max-width: 778px;
+    font-weight: 400;
+    font-size: 28px;
+}
+.main4__box_1{
+    margin-bottom: 80px;
+}
+.cart__img{
+    width: 290px;
+    height: 230px;
+
+}
+.cart-text{
+    display: flex;
+    max-width: 290px;
+    justify-content: space-between;
+
+}
+.cart-text1_1{
+    color: #000;
+    font-weight: 600;
+    font-size: 18;
+}
+.cart-text1_2{
+    font-weight: 400;
+    font-size: 14px;
+}
+.cart-text1{
+    margin-bottom: 16px;
+}
+.price{
+    font-weight: 400;
+    font-size: 20px;
+    font-family: "Rubik Bubbles", system-ui;
+
+}
+.btn__cart{
+    padding: 8px 111px;
+    background-color: transparent;
+    border: 1px solid #000;
+    border-radius: 7px;
+}
+.main4__box_2-1{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 180px;
+
+}
+.main4__box_2-2{
+    display: flex;
+    justify-content: space-between;
+}
+.login__form{
+    background-color: #666666;
+    padding-top: 14px;
+    width: 700px;
+    height: 485px;
+    border-radius: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.login{
+    display: flex;
+    justify-content: center;
+    margin-top: 56px;
+
+}
+.login__input{
+    padding: 16px 22px;
+    border-radius: 8px;
+    border: none;  
+    margin-bottom: 24px;
+    width: 92.5%;
+    position: relative;
+    margin-bottom: 45px;
+    background-color: #BEBEBE;
+}
+.login__title{
+    margin-bottom: 56px;
+}
+.login__btn{
+    background-color: #363535;
+    padding: 14px 124px 13px 92px;
+    border: none;
+    border-radius: 7px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+}
+.login__form1{
+    background-color: #666666;
+    padding-top: 14px;
+    width: 700px;
+    height: 346px;
+    border-radius: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.login1{
+    display: flex;
+    justify-content: center;
+    margin-top: 56px;
+
+}
+.login__input1{
+    padding: 16px 22px;
+    border-radius: 8px;
+    border: none;  
+    margin-bottom: 24px;
+    width: 92.5%;
+    position: relative;
+    margin-bottom: 45px;
+    background-color: #BEBEBE;
+}
+.login__title1{
+    margin-bottom: 56px;
+}
+.login__btn1{
+    background-color: #363535;
+    padding: 14px 124px 13px 92px;
+    border: none;
+    border-radius: 7px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+}
+.testimonials{
+    background: url(../img/bg2.jpg);
+    height: 794px;
+}
+.testimonials__block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.testimonials__block-title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.testimonials__title {
+    padding-top: 112px;
+    font-weight: 400;
+    font-size: 48px;
+    color: #000;
+    margin-bottom: 24px;
+    font-family: "Rubik Bubbles", system-ui;
+}
+.testimonials__subtitle {
+    font-weight: normal;
+    font-size: 28px;
+    margin-bottom: 80px;
+    max-width: 530px;
+    text-align: center;
+}
+.testimonials__cards {
+    display: flex;
+    gap: 48px;
+}
+.testimonials__card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 130px;
+}
+.testimonials__card-title {
+    font-size: 28px;
+    font-weight: normal;
+    color: #000;
+
+}
+.testimonials__card-text {
+    font-weight: 700;
+    font-size: 20px;
+    margin: 32px 0;
+    max-width: 400px;
+    text-align: center;
+}
+.testimonials__card-man {
+    max-width: 56px;
+    max-height: 56px;
+}
+.testimonials__card-name {
+    font-weight: 400;
+    font-size: 32px;
+    margin-top: 16px;
+    font-family: "Rubik Bubbles", system-ui;
+}
+.testimonials__card-about {
+    font-weight: normal;
+    font-size: 16px;
+}
+.main6{
+    background-color: #EEEEEE;
+    height: 864px;
+}
+.main6__box{
+    padding-top: 278px;
+}
+.main6__box-title{
+    font-weight: 400;
+    font-size: 56px;
+    font-family: "Rubik Bubbles", system-ui;
+    margin-bottom: 24px;
+}
+.main6__box-text{
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 40px;
+    margin-bottom: 32px;
+}
+.login__r{
+    border-radius: 7px;
+    width: 396px;
+    padding: 16px 22px;
+    border-radius: 8px; 
+    margin-bottom: 24px;
+    position: relative;
+}
+
+.ras__btn{
+    padding: 12px 23px;
+    background-color: #000;
+    border-radius: 7px;
+}
+.ras__btn-text{
+    color: #fff;
+}
+.ras__text{
+    max-width: 513px;
+    font-weight: 400;
+    font-size: 12px;
+
+}
+.ras{
+    margin-bottom: 16px;
+}
+.main7__box-ter{
+    display: flex;
+    gap: 16px;
+    margin-bottom: 16px;
+}
+.main7{
+    background-image: url("../img/bg2.jpg");
+    height: 790px;
+
+}
+.main7__box{
+    padding-top: 112px;
+
+}
+.main7__box-title{
+    font-size: 56px;
+    font-weight: 400;
+    color: #000;
+    font-family: "Rubik Bubbles", system-ui;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 35px;
+
+}
+.main7__box-text{
+    font-weight: 400;
+    font-size: 28px;
+    margin-bottom: 60px;
+}
+.main7__box-btn{
+    margin-top: 60px;
+    display: flex;
+    gap: 24px;
+}
+.ter{
+    font-size: 16px;
+    font-weight: 400;
+}
+.footer__box_1{
+    display: flex;
+    gap: 32px;
+}
+.footer__box{
+    margin-top: 80px;
+}
+.combo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 80px;
+}
+.footer__box_1_text{
+    color: #000;
+    font-family: "Rubik Bubbles", system-ui;
+    font-size: 32px;
+    font-weight: 400;
+
+}
+.footer__box_2{
+    display: flex;
+    gap: 12px;
+}
+.footer__box_3{
+    margin-top: 32px;
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    font-size: 14px;
+}
+.footer{
+    height: 300px;
+}
+.footer__box_4-text{
+    text-decoration: underline;
+}
